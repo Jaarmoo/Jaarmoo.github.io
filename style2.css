@@ -8,7 +8,7 @@
   body {
     position: relative;
     height: 100%;
-  }
+}
 
  body {
     background: white;
@@ -16,7 +16,7 @@
     color: #000;
     margin: 0;
     padding: 0;
-  }
+}
 
 header{
 	display: flex;
@@ -43,7 +43,7 @@ label.logo{
     margin-left:20px ;
     top: -2px;
     left: 40px;
-  }
+}
 
 
 .navbar ul{
@@ -63,9 +63,9 @@ label.logo{
 	padding: 1rem;
 	display: block;
 	font-weight: bold;
-    font-size: 14px;
-	
+    font-size: 14px;	
 }
+
 .navbar li a:hover{
 	 color:#f6eB07;
     transition: .5s;
@@ -80,7 +80,6 @@ label.logo{
 	font-size: 25px;
 	font-weight: bold;
 	cursor: pointer;
-
 }
 
 .bar3:hover{
@@ -89,37 +88,36 @@ label.logo{
 }
                                       /* Home section */
 
- 
  .swiper {
     width: 100%;
     height: 80%;
-  }
+}
 
  .swiper-slide {
     font-size: 18px;
     position: relative;
-    }
+}
 
   .swiper-slide img {
     display: block;
     width: 100%;
     height: 100%;
-    object-fit: cover;
-   
+    object-fit: cover; 
   }
+
   .swiper-pagination-bullet-active{
     background: #9F3CC2;
+    font-size: 10px;
   }
 
  h1{
     margin-top: 30px;
-  text-align: center;
-  color:#9F3CC2;
-  font-size: 30px;
-  font-weight: bold;
-
-  
+    text-align: center;
+    color:#9F3CC2;
+    font-size: 30px;
+    font-weight: bold;  
 }
+
 #intro{
     position: relative;
     background:#fff ;
@@ -137,8 +135,8 @@ label.logo{
 
 #media img{
     display: block;
-    height:300px ;
-    width:300px ;
+    height:250px ;
+    width:250px ;
     margin: auto;
 
 }
@@ -151,7 +149,7 @@ label.logo{
    text-align: justify;
    margin:0 40px ;
    font-size: 20px;
-  }
+}
 
 
 #text p{
@@ -160,7 +158,7 @@ label.logo{
 }
 
 #anouncement{
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     background:#fff;
      width: 100%;
     height: auto;
@@ -170,17 +168,18 @@ label.logo{
     position: relative;
     display: inline-block;
     width: 40%;
-    top: 30px;
-    padding-left: 200px;
-     bottom: 55px;
+    top: -30px;
+    padding-left: 120px;
+    padding-top: 0px;
+
 
 }
 #media2 img{
     display: block;
     height:300px ;
     width:300px ;
-    margin: auto;
-
+    margin-top: 0px;
+    margin-left: 0px;
 }
 
 #anounce{ 
@@ -199,7 +198,6 @@ label.logo{
     display: block;
     margin: 25px;
     padding: 0 30px;
- 
 
 }
 #anounce li{
@@ -261,7 +259,10 @@ label.logo{
 
     /* Footer Section */
 #footer{
-    background: rgba(159, 60, 194, 0.8);
+    background: linear-gradient(rgba(159, 60, 194, 0.9),rgba(159, 60, 194, 0.9)),url(logo.png) no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+     /*  background: rgba(0, 0, 0, 0.5); background: rgba(159, 60, 194, 0.7);*/
 }
 
 #footer .box-container{
@@ -307,25 +308,65 @@ label.logo{
 
 
         /* Event page */
+
+.topE{
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(105, 97, 104, 0.7)),url(events.jpg) no-repeat;
+    background-size: cover;
+    width: 100%;events
+    height: 50vh;
+    text-align: center;
+    padding-top: 90px;
+    color: white;
+}
 #event{
     font-size: 20px;
+    margin: 30px;
+    padding: 0;
 
 }
-    
+#event1{
+    width: 50%;
+    position: absolute;
+    top: 90%;
+    left: 45%;
+}
+#event2{
+    width: 50%;
+    position: absolute;
+    top: 170%;
+    left: 45%;
+}
+#event3{
+    width: 50%;
+    position: absolute;
+    top: 210%;
+    left: 45%;
+}
+ 
     #event img{
-        width: ;
-        height: ;
+        width:40% ;
+        height:40% ;
 
+    }
+    #event span{
+        display: block;
+        width: 40%;
     }
 
     #event p{
-        display: inline-block;
+        text-align: justify;
+
+
+    }
+    #event h2{
+        text-align: center;
+        margin-bottom: 20px;
 
     }
                                                 /* About page */
 
 .bg{
-    background: linear-gradient(rgba(0,0,0,0.2),#e419e4ec),url(about.jpg) no-repeat;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(105, 97, 104, 0.7)),url(about.jpg) no-repeat;
     background-size: cover;
     width: 100%;
     height: 55vh;
@@ -337,12 +378,10 @@ label.logo{
 
 
 .content p{
-    padding-top: 20px;
+    padding: 20px 30px;
     color: black;
-    font-size: 25px;
-    padding-left: 30px;
+    font-size: 20px;
     margin: 5px;
-    padding-right: 30px;
 }
 
                                     /* Exectives page */
@@ -350,7 +389,7 @@ label.logo{
 
 
 .top{
-    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(105, 97, 104, 0.7)),url(Leader.jpg) no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(105, 97, 104, 0.7)),url(lead.jpg) no-repeat;
     background-size: cover;
     width: 100%;
     height: 50vh;
@@ -371,10 +410,10 @@ label.logo{
     font-size: 25px;
     color:#dd4bf5;
 }
-#exectives_intro{
+#executive_intro {
     font-size: 20px;
     text-align: justify;
-    margin: 10px;
+    padding: 20px;
 }
 
 
@@ -509,12 +548,6 @@ label.logo{
     }
 } 
 
-
-
-
-
-
-
 @media (max-width: 1200px)
 {
 
@@ -522,24 +555,43 @@ label.logo{
     top: 7em;
     margin: 0 25px;
     font-size: 20px;
-    
-}
+    }
+
     #media {
         top:10px ;
     }
-    #media2 {
-    padding-left:20px ;
+
+    #media2{
+    top: -45px;
+    padding-left: 120px;
     }
+    
 
     #anounce{ 
-   margin:0 40px ;
+    margin:0 40px ;
    
-   bottom: 20px;
-  }
+    bottom: 20px;
+    }
     
-}
+    }
+    #event1 {
+        top: 80%;
+        left: 45%;
+    }
 
-@media (max-width: 835px)
+    #event2 {
+        top: 155%;
+        left: 45%;
+    }
+    #event3 {
+        top: 220%;
+        left: 45%;
+    }
+    #event{
+        font-size: 22px;
+    }
+
+@media (max-width: 900px)
 {
 
     .swiper {
@@ -587,17 +639,16 @@ label.logo{
 	}
 
 	h1{
-   		font-size: 22px;
-
+   	font-size: 22px;
   	}
     
 
    #text{
-        position: relative;
-        top: 25px;
-    	font-size: 18px;
-    	margin-left: 30px;
-    	margin-right: 20px;
+    position: relative;
+    top: 25px;
+	font-size: 18px;
+	margin-left: 30px;
+	margin-right: 20px;
    }
 
    #media {
@@ -611,13 +662,10 @@ label.logo{
     
     }
 
-   #media2{
-    position: relative;
-    display: inline-block;
-    width: 40%;
-    padding-left: 30px;
-    bottom: 55px;
-    }
+    #media2{
+    top: -95px;
+    padding-left: 75px;
+  1 }
 
     #media2 img {
     height: 250px;
@@ -636,11 +684,11 @@ label.logo{
      }
     #anouncement ul li{
      font-size: 18px;
-   }
+    }
 
   #footer .credit{
     text-align: 20px;
-  }
+   }
   
     /* About*/
 
@@ -651,6 +699,51 @@ label.logo{
         font-size: 20px;
 
     }
+
+    #event1 {
+    position: relative;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    }
+
+    #event2 {
+    position: relative;
+    top: 0%;
+    left: 0%;
+    width:100%;
+
+    }
+    #event3 {
+    position: relative;
+    top: 0%;
+    left: 0%;
+    width:100%;
+    }
+    #event{
+    font-size: 18px;
+    display: block;
+    margin: 30px;
+    }
+     #event img{
+    width:100% ;
+    height:40% ;
+    }
+    #event span{
+    display: inline;
+    }
+    #event h2{
+    text-align: center;
+    margin-bottom: 0px;
+    font-size: 25px;
+    }
+
+    .top h2 {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+
 
 }
 
@@ -667,20 +760,21 @@ label.logo{
     }
 
     #media {
-        display: block ;
-        width: 100%;
-        top: 0px;
-        margin: 0px;
-        padding: 0;
-        height: auto;
+    display: block ;
+    width: 100%;
+    top: 0px;
+    margin: 0px;
+    padding: 0;
+    height: auto;
     }
+
      #media img {
-        position: relative;
-        margin: 0 100px;
-        height: 200px;
-        width: 200px;
-        left: 100px;
-        top: 0;
+    position: relative;
+    margin: 0 100px;
+    height: 200px;
+    width: 200px;
+    left: 100px;
+    top: 0;
     }
 
    #text {
@@ -713,30 +807,33 @@ label.logo{
     position: relative;
     display: block;
     width: 100%;
-    padding-left: 30px;
-    top:0 ;
-    bottom: 0;
+    height: auto;
+    top: 10px;
+    padding-top: 20px;
+    
+    }
+   #media2 img {
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    
+    }
+    
+    #anounce ul {
+    margin: 25px;
+    padding: 0 25px;
     }
 
-       #media2 img {
-        height: 200px;
-        width: 200px;
+   #anouncement h1{
+    font-size: 18px;
     }
 
-        #anounce ul {
-        margin: 25px;
-        padding: 0 25px;
+   #anouncement ul li{
+    font-size: 15px;
     }
 
-       #anouncement h1{
-            font-size: 18px;
-    }
-
-       #anouncement ul li{
-        font-size: 15px;
-    }
-      #footer .credit{
-        font-size: 19px;
+  #footer .credit{
+    font-size: 19px;
     }
 
    #footer .box-container{
@@ -752,26 +849,29 @@ label.logo{
         font-size: 18px;
     }
 }
-   
 
 @media (max-width: 500px)
 {   
-    .swiper {
-        width: 100%;
-        height: 60%;
-  }
 
     .navbar ul{
         height: 24em;
     }
 
-
     .navbar li a{
         padding: 0.6em 5rem;
         font-size: 20px;
         font-weight: 550;
-
     }
+
+    #executive_intro {
+    font-size: 18px;
+    
+    }
+
+    .content p {
+    font-size: 18px;
+    }
+
     #intro{
         height: auto;
     }
@@ -801,8 +901,8 @@ label.logo{
     margin-top: 0px;
     margin-left: 10px;
     margin-right: 20px;
-    
    }
+
    #anouncement {
     margin-bottom:0;
     background: #fff;
@@ -849,14 +949,35 @@ label.logo{
     font-size: 19px;
     }
 
+    .top{
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(105, 97, 104, 0.7)),url(smalllead.jpg) no-repeat;
+    height: 30vh;    
+    }
+
+    .top h2 {
+    font-size: 25px;
+    }
+
+    .bg{
+    font-size: 20px;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(105, 97, 104, 0.7)),url(about.jpg) no-repeat;
+    
+    height: 25vh;
+    }
+    
+    #event h2{
+        font-size: 20px;
+    }
+
+    #event {
+    font-size: 15px;
+    }
+
+    
 }
 
 @media (max-width: 400px)
 {
-     .swiper {
-        width: 100%;
-        height: 60%;
-    }
 
     .navbar ul{
         height: 24em;
@@ -912,10 +1033,22 @@ label.logo{
     #footer .box-container .box  a{
         font-size: 15px;
     }
+
+    #event h2 {
+        font-size: 20px;
+    }
+
+    .top h2 {
+    font-size: 20px;
+    }
+
+    .bg{
+        font-size:18px;
+    }
   
 }
 
-@media (max-width: 289px)
+@media (max-width: 300px)
 {
      h1{
         font-size: 13px;
@@ -934,5 +1067,37 @@ label.logo{
     #anouncement li{
         font-size: 13px;
     }
+
+    .top h2 {
+    font-size: 20px;
+    }
+
+    #media2 img {
+    height: 150px;
+    width: 150px;
+    margin: auto;
+    }
+
+    #media img {
+    height: 150px;
+    width: 150px;
+    left: 55px;
+    }
+
+    #events .box-container {
+    grid-template-columns: repeat(auto-fit,minmax(18rem,1fr));
+    gap: 1.5rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    }
+    #events .box-container .box {
+    position: relative;
+    padding: 1px
+    
+    }
+     #events .box-container .box  img{
+            width: 250px;
+     }
 
 }
