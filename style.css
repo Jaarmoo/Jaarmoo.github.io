@@ -1032,22 +1032,22 @@ label.logo{
     height: 40vh;    
     }
 
-    .top h2 {
-    font-size: 25px;
-    }
-    .top .heading{
-        font-size: 25px;
-    }
-
     .bg{
     background: linear-gradient(rgba(0,0,0,0.5),rgba(105, 97, 104, 0.7)),url(images/smallabout.jpg) no-repeat;
     height: 40vh;
     }
 
-    .heading{
+    .bg .heading{
         font-size: 20px;
         height: 40vh;
     }
+
+    .top .heading{
+        font-size: 20px;
+        height: 40vh;
+        font-size:20px
+    }
+
 
     .topE{
     height: 40vh;
