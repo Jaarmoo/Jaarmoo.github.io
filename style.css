@@ -336,6 +336,10 @@ label.logo{
     margin-top:1.5rem;
     font-style: italic;
 }
+.credit a{
+    text-decoration: none;
+    color: white;
+}
 
 
         /* Event page */
