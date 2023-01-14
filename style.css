@@ -348,7 +348,7 @@ label.logo{
     background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(105, 97, 104, 0.7)),url(images/events.jpg) no-repeat;
     background-size: cover;
     width: 100%;
-    height: 50vh;
+    height: 40vh;
     text-align: center;
     padding-top: 90px;
     color: white;
@@ -425,7 +425,7 @@ label.logo{
     background: linear-gradient(rgba(0,0,0,0.5),rgba(105, 97, 104, 0.7)),url(images/about.jpg) no-repeat;
     background-size: cover;
     width: 100%;
-    height: 55vh;
+    height: 40vh;
     
     
 }
@@ -436,7 +436,7 @@ label.logo{
     text-align: center;
     font-size: 30px;
     color: white;
-    height: 55vh;
+    height: 40vh;
 }
 
 
@@ -455,7 +455,7 @@ label.logo{
     background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(105, 97, 104, 0.7)),url(images/lead.jpg) no-repeat;
     background-size: cover;
     width: 100%;
-    height: 55vh;
+    height: 40vh;
     
 }
 
@@ -1013,13 +1013,11 @@ label.logo{
     }
 
     .top{
-    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(105, 97, 104, 0.7)),url(images/smalllead.jpg) no-repeat;
-    height: 40vh;    
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(105, 97, 104, 0.7)),url(images/smalllead.jpg) no-repeat;   
     }
 
     .bg{
     background: linear-gradient(rgba(0,0,0,0.5),rgba(105, 97, 104, 0.7)),url(images/smallabout.jpg) no-repeat;
-    height: 40vh;
     }
 
     .heading{
