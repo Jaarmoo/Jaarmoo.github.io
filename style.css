@@ -1014,18 +1014,18 @@ label.logo{
 
     .top{
     background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(105, 97, 104, 0.7)),url(images/smalllead.jpg) no-repeat;
-    height:30vh
+    height:40vh
   
     }
 
     .bg{
     background: linear-gradient(rgba(0,0,0,0.5),rgba(105, 97, 104, 0.7)),url(images/smallabout.jpg) no-repeat;
-    height:30vh
+    height:40vh
      }
 
     .heading{
         font-size: 20px;
-        height: 30vh;
+        height: 40vh;
     }
 
 
