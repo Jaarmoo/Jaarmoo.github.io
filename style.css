@@ -1014,25 +1014,21 @@ label.logo{
 
     .top{
     background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(105, 97, 104, 0.7)),url(images/smalllead.jpg) no-repeat;
-    height:35vh;
     border:5px solid red;
     }
     
-   .top.heading{
+   .top .heading{
         font-size: 10px;
-        height: 10vh;
         border:5px solid green;
      }
 
     .bg{
     background: linear-gradient(rgba(0,0,0,0.5),rgba(105, 97, 104, 0.7)),url(images/smallabout.jpg) no-repeat;
-    height:20%;
     border:5px solid red;
      }
 
     .bg .heading{
         font-size: 20px;
-        height: 20%;
         border:5px solid green;
     }
 
