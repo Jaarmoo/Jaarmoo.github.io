@@ -83,7 +83,7 @@ label.logo{
 }
 
 .bar3:hover{
-	color:#f6eB07;
+	color:#dd4bf5;
     transition: .5s;
 }
                                       /* Home section */
@@ -107,7 +107,18 @@ label.logo{
 
   .swiper-pagination-bullet-active{
     background: #9F3CC2;
+    font-size: 10px;
   }
+  .bgswipe{
+  position: relative;
+  bottom: 500px;
+  left: 0px;
+  background: rgba(0, 0, 0, 0.25);
+  width: 100%;
+  height:100vh;
+  
+}
+
 
  h1{
     margin-top: 30px;
@@ -218,18 +229,18 @@ label.logo{
     text-align: center;
     padding-top: 10px;
 }
-
-#events p{
-    font-size: 15px;
-    text-align: justify;
-
-}
-#events span{
+#date{
     text-align: left;
-    font-size: 13px;
+    font-size: 15px;
     display: block;
     font-style: italic;
 }
+#icon{
+    color:#9F3CC2;
+    font-size:20px;
+    letter-spacing: 10px;
+}
+
 #click{
     color:#9F3CC2;
     text-decoration: none;
@@ -238,7 +249,17 @@ label.logo{
 
 #click:hover{
     color:#f6eB07;
+}
 
+#events p{
+    font-size: 12px;
+    text-align: justify;
+
+}
+#events span{
+    text-align: left;
+    font-size: 12px;
+    display: block;
 }
 
 #events .box-container{
@@ -315,10 +336,6 @@ label.logo{
     margin-top:1.5rem;
     font-style: italic;
 }
-.credit a{
-    text-decoration: none;
-    color: white;
-}
 
 
         /* Event page */
@@ -341,22 +358,41 @@ label.logo{
 
 }
 #event1{
-    width: 50%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    max-width: 52%;
     position: absolute;
-    top: 82%;
+    top:68%;
     left: 45%;
+    
+    height: 300px;
+
 }
 #event2{
-    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 52%;
     position: absolute;
-    top: 150%;
+    top: 135%;
     left: 45%;
+    
+    height: 300px;
+
 }
 #event3{
-    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width:52%;
     position: absolute;
-    top: 210%;
+    top: 205%;
+    height: 300px;
     left: 45%;
+    
+
 }
  
     #event img{
@@ -367,7 +403,6 @@ label.logo{
     #event span{
         display: block;
         width: 40%;
-        font-style: italic;
     }
 
     #event p{
@@ -378,7 +413,6 @@ label.logo{
     #event h2{
         text-align: center;
         margin-bottom: 20px;
-        color:#dd4bf5 ;
 
     }
                                                 /* About page */
@@ -388,10 +422,18 @@ label.logo{
     background-size: cover;
     width: 100%;
     height: 55vh;
+    border: 1px solid red;
+    
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    padding-top: 100px;
-    color: white;
     font-size: 30px;
+    color: white;
+    height: 55vh;
+    border: 5px dotted;
 }
 
 
@@ -410,9 +452,9 @@ label.logo{
     background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(105, 97, 104, 0.7)),url(images/lead.jpg) no-repeat;
     background-size: cover;
     width: 100%;
-    height: 50vh;
-    text-align: center;
-    padding-top: 90px;
+    height: 55vh;
+    border: 1px solid red;
+    
 }
 
 .top h2{
@@ -603,34 +645,18 @@ label.logo{
     bottom: 20px;
     }
 
-    #event1{
-    width: 54%;
-    position: absolute;
-    top: 75%;
-    left: 43%;
-    }
-
-    #event2{
-    width: 54%;
-    position: absolute;
-    top: 129%;
-    left: 43%;
-    }
-    
-    #event3{
-    width: 54%;
-    position: absolute;
-    top: 176%;
-    left: 43%;
-    }    
+      
 }
 
-@media (max-width: 900px)
+@media (max-width: 1110px)
 {
 
     .swiper {
     width: 100%;
     height: 60%;
+   }
+   .bgswipe{
+    height: 120vh;
    }
 
 	header{
@@ -699,7 +725,7 @@ label.logo{
     #media2{
     top: -95px;
     padding-left: 75px;
-  1 }
+   }
 
     #media2 img {
     height: 250px;
@@ -735,48 +761,57 @@ label.logo{
     }
 
     #event1 {
+    display: block;
     position: relative;
     top: 0%;
     left: 0%;
-    width: 100%;
+    max-width: 100%;
+    height: auto;
     }
 
     #event2 {
+    display: block;
     position: relative;
     top: 0%;
     left: 0%;
-    width:100%;
+    max-width:100%;
+    height: auto;
 
     }
     #event3 {
+    display: block;
     position: relative;
     top: 0%;
     left: 0%;
-    width:100%;
+    max-width:100%;
+    height: auto;
     }
+
     #event{
-    font-size: 18px;
+    font-size: 20px;
     display: block;
     margin: 30px;
     }
-     #event img{
-    width:100% ;
+
+    #event img{
+    width:50% ;
     height:40% ;
     }
+
     #event span{
-    display: inline;
+    display: block;
+    margin-bottom: 10px;
     }
     #event h2{
     text-align: center;
     margin: 20px 0;
     font-size: 25px;
     }
-
-    .top h2 {
+     .top .heading{
     color: white;
-    font-size: 40px;
+    font-size: 28px;
     font-weight: bold;
-}
+    }
 
 
 }
@@ -881,6 +916,13 @@ label.logo{
 
     #footer .box-container .box  a{
         font-size: 18px;
+    }
+    #event img{
+    width:100% ;
+    height:50% ;
+    }
+    .top .heading{
+        font-size: 25px;
     }
 }
 
@@ -991,11 +1033,18 @@ label.logo{
     .top h2 {
     font-size: 25px;
     }
+    .top .heading{
+        font-size: 25px;
+    }
 
     .bg{
-    font-size: 20px;
     background: linear-gradient(rgba(0,0,0,0.5),rgba(105, 97, 104, 0.7)),url(images/smallabout.jpg) no-repeat;
     height: 40vh;
+    }
+
+    .heading{
+        font-size: 20px;
+        height: 40vh;
     }
 
     .topE{
@@ -1011,7 +1060,7 @@ label.logo{
     }
 
     #event {
-    font-size: 15px;
+    font-size: 18px;
     }
 
     
@@ -1079,11 +1128,12 @@ label.logo{
         font-size: 20px;
     }
 
-    .top h2 {
+    .top .heading {
     font-size: 20px;
     }
 
-    .bg{
+
+    .bg .heading{
         font-size:18px;
     }
   
@@ -1109,7 +1159,7 @@ label.logo{
         font-size: 15px;
     }
 
-    .top h2 {
+    .top heading {
     font-size: 20px;
     }
 
