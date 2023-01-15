@@ -437,7 +437,7 @@ label.logo{
 	
     font-size: 30px;
     color: white;
-    height: auto;
+    height: 40vh;
     border:5px solid green;
 }
 
@@ -1019,19 +1019,23 @@ label.logo{
 
     .top{
     background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(105, 97, 104, 0.7)),url(images/smalllead.jpg) no-repeat;
+	height:30vh;
     }
     
    .top .heading{
         font-size: 10px;
+	   height:30vh;
      }
 
     .bg{
     background: linear-gradient(rgba(0,0,0,0.5),rgba(105, 97, 104, 0.7)),url(images/smallabout.jpg) no-repeat;
+	    height:30vh;
     
      }
 
     .bg .heading{
         font-size: 10px;
+	    height:30vh;
     }
 
 
