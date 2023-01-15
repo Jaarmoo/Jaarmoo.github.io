@@ -434,7 +434,7 @@ label.logo{
     
 }
 .heading{
-    margin:10vh
+    margin:10vh 0;
     height: 20vh;
     width:100%;  
 }
@@ -1033,13 +1033,13 @@ label.logo{
     .bg{
     background: linear-gradient(rgba(0,0,0,0.5),rgba(105, 97, 104, 0.7)),url(images/smallabout.jpg) no-repeat;
 	    height:28vh;
-     }
+     }g
 
     .bg .heading{
 	    height:14vh;
     }
     .heading h2{
-	    font-size:20px;
+	    font-size:25gpx;
 	}
 
 
