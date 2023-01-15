@@ -83,7 +83,7 @@ label.logo{
 }
 
 .bar3:hover{
-	color:#dd4bf5;
+	color:#f6eB07;
     transition: .5s;
 }
                                       /* Home section */
@@ -1028,6 +1028,7 @@ label.logo{
     
    .top .heading{
 	   height:15vh;
+           margin:7.5vh 0;
      }
 
     .bg{
@@ -1037,9 +1038,12 @@ label.logo{
 
     .bg .heading{
 	    height:14vh;
+            margin:7vh 0;
+           
+
     }
     .heading h2{
-	    font-size:25gpx;
+	    font-size:25px;
 	}
 
 
