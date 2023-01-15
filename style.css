@@ -425,7 +425,7 @@ label.logo{
     background: linear-gradient(rgba(0,0,0,0.5),rgba(105, 97, 104, 0.7)),url(images/about.jpg) no-repeat;
     background-size: cover;
     width: 100%;
-    height:auto;
+    height:40vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -456,7 +456,7 @@ label.logo{
     background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(105, 97, 104, 0.7)),url(images/lead.jpg) no-repeat;
     background-size: cover;
     width: 100%;
-    height: auto;
+    height: 40vh;
     justify-content: center;
     align-items: center;
     text-align: center;
