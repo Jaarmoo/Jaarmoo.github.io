@@ -434,10 +434,10 @@ label.logo{
     
 }
 .heading{
-	
+    margin:10vh
     font-size: 30px;
     color: white;
-    height: 40vh;
+    height: 20vh;
     width:100%
     border:5px solid green;
     
@@ -1026,7 +1026,7 @@ label.logo{
     
    .top .heading{
         font-size: 10px;
-	   height:30vh;
+	   height:15vh;
      }
 
     .bg{
@@ -1037,7 +1037,7 @@ label.logo{
 
     .bg .heading{
         font-size: 10px;
-	    height:30vh;
+	    height:14vh;
     }
 
 
