@@ -435,12 +435,12 @@ label.logo{
 }
 .heading{
     margin:10vh
-    font-size: 30px;
-    color: white;
     height: 20vh;
     width:100%
-    border:5px solid green;
-    
+    border:5px solid green;   
+}
+.heading h2{
+	font-size:30px;
 }
 
 
