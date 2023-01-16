@@ -345,7 +345,7 @@ label.logo{
         /* Event page */
 
 .topE{
-    display:flex
+    display:flex;
     background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(105, 97, 104, 0.7)),url(images/events.jpg) no-repeat;
     background-size: cover;
     width: 100%;
