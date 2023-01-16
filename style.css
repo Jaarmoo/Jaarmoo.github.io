@@ -1052,10 +1052,11 @@ label.logo{
     .topE{
     height: 35vh;
     }
-
-    .topE h2{
-        font-size: 25px;
-    }
+	
+   .bg .heading{
+	    height:17.5vh;
+            margin:8.75vh 0;
+            padding:4.375vh 0;
     
     #event h2{
         font-size: 20px;
