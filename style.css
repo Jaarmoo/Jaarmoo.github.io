@@ -115,7 +115,7 @@ label.logo{
   left: 0px;
   background: rgba(0, 0, 0, 0.3);
   width: 100%;
-  height:1000%;
+  height:2000%;
   
 }
 
@@ -129,43 +129,35 @@ label.logo{
 }
 
 #intro{
-    position: relative;
-    background:#fff ;
-     width: 100%;
-    height: 500px;
+    font-size: 20px;
+    margin: 30px;
+    padding: 0;
 }
 
-#media{
-    position: relative;
-    display: inline-block;
-    width: 40%;
-    padding-left: 50px;
-    padding-top: 50px;
+.go{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-#media img{
-    display: block;
-    height:250px ;
-    width:250px ;
-    margin: auto;
-
+#text{
+   padding:0 100px ;
+    width: 100%;
+    text-align: justify;
 }
-
-#text{ 
-    position:absolute;
-    top: 8em;
-    display: inline-block;
-    width: 50%;
-   text-align: justify;
-   margin:0 40px ;
-   font-size: 20px;
+ 
+#intro img{
+    width:300px ;
+    height:300px ;
 }
 
 
 #text p{
+    display: inline;
     font-style: italic;
-
 }
+
+
 
 #anouncement{
     margin-bottom: 0px;
@@ -359,66 +351,41 @@ label.logo{
     font-size: 20px;
     margin: 30px;
     padding: 0;
-
 }
+
+.go{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+
 #event1{
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    max-width: 52%;
-    position: absolute;
-    top:68%;
-    left: 45%;
-    
-    height: 300px;
-
-}
-#event2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 52%;
-    position: absolute;
-    top: 135%;
-    left: 45%;
-    
-    height: 300px;
-
-}
-#event3{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width:52%;
-    position: absolute;
-    top: 205%;
-    height: 300px;
-    left: 45%;
-    
-
+   padding:0 100px ;
+    width: 100%;
+    text-align: justify;
 }
  
-    #event img{
-        width:40% ;
-        height:40% ;
+#event img{
+    width:40% ;
+    height:40% ;
+}
 
-    }
-    #event span{
-        display: block;
-        width: 40%;
-    }
+#date{
+    display: block;
+    width: 50%;
+}
 
-    #event p{
-        text-align: justify;
+#event p{
+    text-align: justify;
+}
 
+#event h2{
+    text-align: center;
+    margin-bottom: 20px;
+    color:#9F3CC2;
 
-    }
-    #event h2{
-        text-align: center;
-        margin-bottom: 20px;
-
-    }
+}
                                                 /* About page */
 
 .bg{
@@ -441,7 +408,7 @@ label.logo{
 }
 
 .heading h2{
-	font-size:30px;
+	font-size:40px;
 	color:#fff
 }
 
@@ -623,35 +590,10 @@ label.logo{
 @media (max-width: 960px)
 {
 
-    #text {
-    top: 7em;
-    margin: 0 25px;
-    font-size: 20px;
-    }
-
-    #media {
-        top:10px ;
-    }
-
-    #media2{
-    top: -45px;
-    padding-left: 120px;
-    }
-    
-
-    #anounce{ 
-    margin:0 40px ;
-   
-    bottom: 20px;
-    }
-
-      
-}
-
-@media (max-width: 1110px)
-{
-
-    
+    .swiper {
+    width: 100%;
+    height: 60%;
+   }
    .bgswipe{
     height: 1000%;
    }
@@ -700,23 +642,17 @@ label.logo{
   	}
     
 
-   #text{
-    position: relative;
-    top: 25px;
-	font-size: 18px;
-	margin-left: 30px;
-	margin-right: 20px;
-   }
+    #intro{
+        height: auto;
+    }
 
-   #media {
-        top: 0px;
-   }
-
-   #text {
-    top: 0.2em;
-    margin: 0 25px;
-    font-size: 18px;
-    
+    #intro img {
+        display: block;
+        margin: auto;
+        padding: 0;
+    }
+    #text{
+        padding: 0;
     }
 
     #media2{
@@ -746,6 +682,55 @@ label.logo{
   #footer .credit{
     text-align: 20px;
    }
+
+
+    #event {
+    font-size: 18px;
+    }
+    
+    #event1 {
+    display: block;
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    border: 0;
+    padding: 0;
+    }
+
+    #event1 {
+   
+    width: 100%;
+    text-align: justify;
+    }
+
+    
+    .go{
+        display: block;
+        text-align: justify;
+    }
+    
+    #event{
+    font-size: 20px;
+    display: block;
+    margin: 30px;
+    }
+
+    #event img{
+    width:70% ;
+    height:40% ;
+    margin: auto;
+    }
+
+    #event span{
+    display:inline;
+    margin-bottom: 10px;
+    }
+    #event h2{
+    text-align: center;
+    margin: 20px 0;
+    font-size: 25px;
+    }
+
   
     /* About*/
 
@@ -757,62 +742,14 @@ label.logo{
 
     }
 
-    #event1 {
-    display: block;
-    position: relative;
-    top: 0%;
-    left: 0%;
-    max-width: 100%;
-    height: auto;
-    }
 
-    #event2 {
-    display: block;
-    position: relative;
-    top: 0%;
-    left: 0%;
-    max-width:100%;
-    height: auto;
-
-    }
-    #event3 {
-    display: block;
-    position: relative;
-    top: 0%;
-    left: 0%;
-    max-width:100%;
-    height: auto;
-    }
-
-    #event{
-    font-size: 20px;
-    display: block;
-    margin: 30px;
-    }
-
-    #event img{
-    width:50% ;
-    height:40% ;
-    }
-
-    #event span{
-    display: block;
-    margin-bottom: 10px;
-    }
-    #event h2{
-    text-align: center;
-    margin: 20px 0;
-    font-size: 25px;
-    }
      .top .heading{
     color: white;
     font-size: 28px;
     font-weight: bold;
     }
 
-
 }
-
 
 @media (max-width: 750px)
 {
@@ -824,35 +761,11 @@ label.logo{
     #intro{
         height: auto;
     }
+    #text p{
+        font-size: 18px;
 
-    #media {
-    display: block ;
-    width: 100%;
-    top: 0px;
-    margin: 0px;
-    padding: 0;
-    height: auto;
     }
-
-     #media img {
-    position: relative;
-    margin: 0 100px;
-    height: 200px;
-    width: 200px;
-    left: 100px;
-    top: 0;
-    }
-
-   #text {
-    top:-0.1em ;
-    display: block;
-    font-size: 15px;
-    width: 95%;
-    margin-top: 0px;
-    margin-left: 15px;
-    margin-right: 0px;
         
-   }
    #anouncement {
     margin-bottom:0;
     background: #fff;
@@ -921,6 +834,11 @@ label.logo{
     .top .heading{
         font-size: 25px;
     }
+
+    .heading h2 {
+    font-size: 35px;
+
+    }
 }
 
 @media (max-width: 500px)
@@ -949,32 +867,14 @@ label.logo{
         height: auto;
     }
 
-    #media {
-        display: block ;
-        width: 100%;
-        top: 0px;
-        margin: 0px;
-        padding: 0;
-        height: auto;
-    }
-     #media img {
-        position: relative;
-        margin: 0 30px;
+    #intro img {
         height: 200px;
         width: 200px;
-        left: 75px;
-        top: 0;
+    }
+    #text p{
+     font-size: 18px;
     }
 
-   #text {
-    top:-0.1em ;
-    display: block;
-    font-size: 15px;
-    width: 95%;
-    margin-top: 0px;
-    margin-left: 10px;
-    margin-right: 20px;
-   }
 
    #anouncement {
     margin-bottom:0;
@@ -1029,7 +929,8 @@ label.logo{
     
    .top .heading{
 	   height:15vh;
-           margin:7.5vh 0;
+        margin:7.5vh 0;
+        padding: 3.75vh 0;
      }
 
     .bg{
@@ -1039,11 +940,9 @@ label.logo{
 
     .bg .heading{
 	    height:14vh;
-            margin:7vh 0;
-            padding:3.5vh 0;
-           
-
-    }
+        margin:7vh 0;
+        padding:3.5vh 0;
+   }
     .heading h2{
 	    font-size:25px;
 	}
@@ -1055,8 +954,9 @@ label.logo{
 	
    .bg .heading{
 	    height:17.5vh;
-            margin:8.75vh 0;
-            padding:4.375vh 0;
+        margin:8.75vh 0;
+        padding:4.375vh 0;
+        }
     
     #event h2{
         font-size: 20px;
@@ -1084,6 +984,11 @@ label.logo{
 
     }
 
+    #intro img {
+        height: 150px;
+        width: 150px;
+    }
+
     h1{
         font-size: 15px;
         margin-left: 5px;
@@ -1091,17 +996,9 @@ label.logo{
    }
 
    
-   #media img {
-    position: relative;
-    margin: 0 15px;
-     left: 75px;
 
-   } 
-
-   #text {
+   #text p {
     font-size: 15px;
-    margin-left: 10px;
-    margin-right: 20px;
     }
 
     #anouncement h1{
@@ -1172,11 +1069,7 @@ label.logo{
     margin: auto;
     }
 
-    #media img {
-    height: 150px;
-    width: 150px;
-    left: 55px;
-    }
+    
 
     #events .box-container {
     grid-template-columns: repeat(auto-fit,minmax(18rem,1fr));
