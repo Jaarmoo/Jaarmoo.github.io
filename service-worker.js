@@ -1,0 +1,1 @@
+importScripts('https://cdn.pushassist.com/account/assets/service-workers/jaarmoo-service-worker.js');
