@@ -63,12 +63,13 @@ label.logo{
 	padding: 1rem;
 	display: block;
 	font-weight: bold;
-    font-size: 14px;	
+    font-size: 15px;	
 }
 
 .navbar li a:hover{
 	 color:#f6eB07;
     transition: .5s;
+
 }
 
 .bar3{
@@ -109,106 +110,88 @@ label.logo{
     background: #9F3CC2;
     font-size: 10px;
   }
-  .bgswipe{
-  position: relative;
-  bottom: 500px;
-  left: 0px;
-  background: rgba(0, 0, 0, 0.3);
-  width: 100%;
-  height:2000%;
-  
-}
 
 
- h1{
+
+#maintopic{
     margin-top: 30px;
     text-align: center;
     color:#9F3CC2;
-    font-size: 30px;
-    font-weight: bold;  
+    font-size:1.3em;
+    font-weight: bold; 
+    z-index: 10; 
 }
 
 #intro{
-    font-size: 20px;
+    font-size: 1.2em;
     margin: 30px;
     padding: 0;
+    text-align: justify;
 }
 
-.go{
+.introbox{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 #text{
-   padding:0 100px ;
+   padding:0 10px ;
     width: 100%;
-    text-align: justify;
 }
- 
-#intro img{
-    width:300px ;
-    height:300px ;
-}
-
 
 #text p{
     display: inline;
     font-style: italic;
 }
-
-
-
-#anouncement{
-    margin-bottom: 0px;
-    background:#fff;
-     width: 100%;
-    height: auto;
+ 
+#intro img{
+    width:250px ;
+    height:250px ;
+    margin: 20px 100px;
 }
 
-#media2{
-    position: relative;
-    display: inline-block;
-    width: 40%;
-    top: -30px;
-    padding-left: 120px;
-    padding-top: 0px;
 
-
-}
-#media2 img{
-    display: block;
-    height:300px ;
-    width:300px ;
-    margin-top: 0px;
-    margin-left: 0px;
+#anounce{
+    font-size: 1.2em;
+    margin: 30px;
+    padding: 0;
+    text-align: justify;
 }
 
-#anounce{ 
-    position: relative;
-    display: inline-block;
-    width: 50%;
-   text-align: justify;
-   margin:0 40px ;
-   font-size: 20px;
-   bottom: 40px;
-  }
+.anouncebox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+#text2{
+   padding:0 10px ;
+    width: 100%;
+}
+#text2 p{
+    display: inline;
+}
 
-
-#anounce ul{
+#text2 ul{
     display: block;
     margin: 25px;
     padding: 0 30px;
 
 }
-#anounce li{
+#text2 ul li{
     list-style: disc;
-
     text-align: justify; 
-    padding: 10px;
-    font-size: 20px;
+    padding: 20px;
+    font-size: 1.0em;
 }
+ 
+#anounce img{
+    width:250px ;
+    height:250px ;
+    margin: 20px 100px;
+}
+
     
     /* Event section */
 
@@ -223,20 +206,20 @@ label.logo{
 }
 #date{
     text-align: left;
-    font-size: 15px;
+    font-size: 0.2em;
     display: block;
     font-style: italic;
 }
 #icon{
     color:#9F3CC2;
-    font-size:20px;
+    font-size:1.5em;
     letter-spacing: 10px;
 }
 
 #click{
     color:#9F3CC2;
     text-decoration: none;
-    font-size: 18px;
+    font-size:1.1em;
 }
 
 #click:hover{
@@ -244,13 +227,12 @@ label.logo{
 }
 
 #events p{
-    font-size: 12px;
-    text-align: justify;
+    font-size:1.1em;
 
 }
 #events span{
     text-align: left;
-    font-size: 12px;
+    font-size:0.7em;
     display: block;
 }
 
@@ -300,14 +282,14 @@ label.logo{
 
 #footer .box-container .box {
     padding: 1rem 6rem;
-    font-size: 25px;
+    font-size:1.1em;
     color: #E8DB07;
 }
 
 #footer .box-container .box a {
     padding: 0.5rem 0;
     display: block;
-    font-size: 20px;
+    font-size:0.9em;
     color: white;
     text-decoration: none;
 
@@ -321,7 +303,7 @@ label.logo{
     text-align: center;
     color: #fff;
     border-top: 1px solid white; 
-    font-size: 20px;
+    font-size:0.9em;
     font-style: italic;
     padding: .5rem;
     padding-top: 1.5rem;
@@ -348,12 +330,12 @@ label.logo{
 }
 
 #event{
-    font-size: 20px;
+    font-size:1.3em;;
     margin: 30px;
     padding: 0;
 }
 
-.go{
+.introbox{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -378,12 +360,14 @@ label.logo{
 
 #event p{
     text-align: justify;
+    font-size: 0.9em;
 }
 
 #event h2{
     text-align: center;
     margin-bottom: 20px;
     color:#9F3CC2;
+    font-size: 1.2em;
 
 }
                                                 /* About page */
@@ -408,7 +392,7 @@ label.logo{
 }
 
 .heading h2{
-	font-size:40px;
+	font-size:2.0em;
 	color:#fff
 }
 
@@ -416,14 +400,11 @@ label.logo{
 .content p{
     padding: 20px 30px;
     color: black;
-    font-size: 20px;
+    font-size:1.2em;
     margin: 5px;
 }
 
                                     /* Exectives page */
-
-
-
 .top{
     display:flex;
     background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(105, 97, 104, 0.7)),url(images/lead.jpg) no-repeat;
@@ -436,19 +417,18 @@ label.logo{
     
 }
 
-
 #heads{
     text-align: center;
     width: 100%;
-    font-size: 25px;
+    font-size:1.3em;
     color:#dd4bf5;
 }
+
 #executive_intro {
-    font-size: 20px;
+    font-size:1.1em;
     text-align: justify;
     padding: 20px;
 }
-
 
 .row{
     display:flex;
@@ -484,7 +464,6 @@ label.logo{
     text-align: center;
 }
 
-
 .card{
     width: 100%;
     height: 100%;
@@ -510,9 +489,11 @@ label.logo{
     height: 9.7em;
 
 }
+
 .card h3{
     font-weight: bold;
 }
+
 .card p{
     font-weight: 300;
     text-transform: uppercase;
@@ -524,15 +505,18 @@ label.logo{
     color: white;
 
 }
+
 .card:hover .img-box{
     transform: scale(1.2);
 }
+
 #social{
-    font-size: 20px;
+    font-size:1.0em;;
      letter-spacing: 15px;
      color: white;
 
 }
+
 #social a{
     color: black;
 }
@@ -587,15 +571,12 @@ label.logo{
     }
 } 
 
-@media (max-width: 960px)
+@media (max-width: 900px)
 {
 
     .swiper {
     width: 100%;
     height: 60%;
-   }
-   .bgswipe{
-    height: 1000%;
    }
 
 	header{
@@ -605,7 +586,6 @@ label.logo{
 
 	.navbar{
 		display: none;
-
 	}
 
 	.bar3{
@@ -628,19 +608,19 @@ label.logo{
 
 	.navbar li a{
 		padding: 0.45em 5rem;
-		font-size: 22px;
+		font-size: 1.5em;
 		font-weight: normal;
 	}
 
 	.navbar.active{
 		display: flex;
-		z-index: 500;
+		z-index: 3;
 	}
 
-	h1{
-   	font-size: 22px;
-  	}
-    
+    .introbox{
+        display: block;
+        text-align: justify;
+    }
 
     #intro{
         height: auto;
@@ -653,41 +633,40 @@ label.logo{
     }
     #text{
         padding: 0;
+        font-size: 0.9em;
     }
 
-    #media2{
-    top: -95px;
-    padding-left: 75px;
-   }
-
-    #media2 img {
-    height: 250px;
-    width: 250px;
-    position: relative;
-    bottom: 20px;
+    .anouncebox{
+        display: block;
+        text-align: justify;
     }
 
-    #anounce {
-    margin: 0 20px;
-    bottom: 10px;
+    #anounce{
+        height: auto;
     }
 
-   #anouncement ul{
-     margin:0 20px;
-     }
-    #anouncement ul li{
-     font-size: 18px;
+    #anounce img {
+        display: block;
+        margin: auto;
+        padding: 0;
     }
 
-  #footer .credit{
-    text-align: 20px;
-   }
-
-
-    #event {
-    font-size: 18px;
+    #text2{
+        padding: 0;
+        
     }
-    
+        
+    #text2 ul {
+    margin: 25px;
+    padding: 0 25px;
+    }
+
+
+    #text2 ul li{
+    font-size: 0.9em;
+    }
+  
+   
     #event1 {
     display: block;
     position: relative;
@@ -696,22 +675,8 @@ label.logo{
     border: 0;
     padding: 0;
     }
-
-    #event1 {
-   
-    width: 100%;
-    text-align: justify;
-    }
-
-    
-    .go{
-        display: block;
-        text-align: justify;
-    }
     
     #event{
-    font-size: 20px;
-    display: block;
     margin: 30px;
     }
 
@@ -720,125 +685,31 @@ label.logo{
     height:40% ;
     margin: auto;
     }
-
-    #event span{
-    display:inline;
-    margin-bottom: 10px;
-    }
-    #event h2{
-    text-align: center;
-    margin: 20px 0;
-    font-size: 25px;
-    }
-
-  
-    /* About*/
-
-  .content h2{
-        font-size: 25px;
-    }
-    .content p{
-        font-size: 20px;
-
-    }
-
-
-     .top .heading{
+    
+    .top .heading{
     color: white;
     font-size: 28px;
     font-weight: bold;
     }
 
-}
-
-@media (max-width: 750px)
-{
-    
-    .navbar ul{
-        height: 24em;
-    }
-
-    #intro{
-        height: auto;
-    }
-    #text p{
-        font-size: 18px;
-
-    }
-        
-   #anouncement {
-    margin-bottom:0;
-    background: #fff;
-    width: 100%;
-    height: auto;
-    }
-
-   #anounce {
-    position: relative;
-    width: 100%;
-    text-align: justify;
-    margin: 0;
-    top: 0;
-    font-size: 20px;
-     
-    }
-   #media2 {
-    position: relative;
-    display: block;
-    width: 100%;
-    height: auto;
-    top: 10px;
-    padding-top: 20px;
-    
-    }
-   #media2 img {
-    height: 200px;
-    width: 200px;
-    margin: auto;
-    
-    }
-    
-    #anounce ul {
-    margin: 25px;
-    padding: 0 25px;
-    }
-
-   #anouncement h1{
-    font-size: 18px;
-    }
-
-   #anouncement ul li{
-    font-size: 15px;
-    }
-
-  #footer .credit{
-    font-size: 19px;
-    }
-
-   #footer .box-container{
+    #footer .box-container{
     grid-template-columns: repeat(auto-fit,minmax(20rem,1fr));
-    gap:1.1rem;
+    gap:1.1em;
     }
 
-    #footer .box-container .box {
-        font-size:20px ;
-    }
-
-    #footer .box-container .box  a{
-        font-size: 18px;
-    }
     #event img{
     width:100% ;
     height:50% ;
     }
+
     .top .heading{
         font-size: 25px;
     }
 
     .heading h2 {
     font-size: 35px;
-
     }
+
 }
 
 @media (max-width: 500px)
@@ -850,17 +721,17 @@ label.logo{
 
     .navbar li a{
         padding: 0.6em 5rem;
-        font-size: 20px;
+        font-size: 1.2em;
         font-weight: 550;
     }
 
     #executive_intro {
-    font-size: 18px;
+    font-size: 1.0em;
     
     }
 
     .content p {
-    font-size: 18px;
+    font-size: 1.0em;
     }
 
     #intro{
@@ -871,56 +742,22 @@ label.logo{
         height: 200px;
         width: 200px;
     }
+
+    #maintopic{
+        font-size: 1.1em;
+    }
+
     #text p{
-     font-size: 18px;
+     font-size: 0.7em;
     }
 
-
-   #anouncement {
-    margin-bottom:0;
-    background: #fff;
-    width: 100%;
-    height: auto;
+    #text2 ul li{
+        font-size: 0.672em;
+    }
+    #events p {
+        font-size: 0.84em;
     }
 
-   #anounce {
-    position: relative;
-    width: 100%;
-    text-align: justify;
-    margin: 0;
-    top: 0;
-    font-size: 20px; 
-    }
-
-   #media2 {
-    position: relative;
-    display: block;
-    width: 100%;
-    padding-left: 30px;
-    top:0 ;
-    bottom: 0;
-    }
-
-   #media2 img {
-    height: 200px;
-    width: 200px;
-    }
-
-    #anounce ul {
-    margin: 25px;
-    padding: 0 25px;
-    }
-
-   #anouncement h1{
-        font-size: 18px;
-    }
-
-   #anouncement ul li{
-    font-size: 15px;
-    }
-  #footer .credit{
-    font-size: 19px;
-    }
 
     .top{
     background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(105, 97, 104, 0.7)),url(images/smalllead.jpg) no-repeat;
@@ -942,11 +779,15 @@ label.logo{
 	    height:14vh;
         margin:7vh 0;
         padding:3.5vh 0;
-   }
+    }
+
+   .bg .heading h2{
+    font-size:22px;
+    }
+
     .heading h2{
 	    font-size:25px;
 	}
-
 
     .topE{
     height: 35vh;
@@ -956,7 +797,7 @@ label.logo{
 	    height:17.5vh;
         margin:8.75vh 0;
         padding:4.375vh 0;
-        }
+    }
     
     #event h2{
         font-size: 20px;
@@ -965,8 +806,26 @@ label.logo{
     #event {
     font-size: 18px;
     }
+    #eventhead{
+        font-size:0.97em ;
+    }
+    #footer .box-container {
+        grid-template-columns: repeat(auto-fit,minmax(12rem,1fr));
+        gap: inherit;
+    }
 
-    
+    #footer .box-container .box {
+        font-size:0.97em ;
+        padding-left: 40px;
+    }
+
+    #footer .box-container .box  a{
+        font-size: 0.84em;
+    }
+    .credit {
+        font-size: 0.84em;
+    }
+ 
 }
 
 @media (max-width: 400px)
@@ -989,24 +848,35 @@ label.logo{
         width: 150px;
     }
 
-    h1{
-        font-size: 15px;
-        margin-left: 5px;
-        margin-right: 5px;
-   }
-
-   
-
-   #text p {
-    font-size: 15px;
+    #anounce img {
+        height: 150px;
+        width: 150px;
     }
 
-    #anouncement h1{
-        font-size: 20px;
+    #maintopic {
+        font-size: 0.9rem;
+    }
+    
+
+    #text p {
+        font-size: 0.625em;
     }
 
-    #anouncement ul li{
-        font-size: 15px;
+    #events p {
+        font-size: 0.75em;
+    }
+
+    #eventhead {
+        font-size: 0.8em;
+    }
+
+    #text2 ul li {
+        font-size: 0.6em;
+    }
+
+    #footer .box-container {
+        grid-template-columns: repeat(auto-fit,minmax(10rem,1fr));
+        gap: inherit;
     }
 
     #footer .box-container{
@@ -1019,9 +889,16 @@ label.logo{
         font-size:15px ;
     
     }
+    .credit {
+        font-size: 0.75em;
+    }
+
+    #footer .box-container .box{
+        font-size: 0.65em;
+    }
 
     #footer .box-container .box  a{
-        font-size: 15px;
+        font-size: 1.0em;
     }
 
     #event h2 {
@@ -1068,9 +945,6 @@ label.logo{
     width: 150px;
     margin: auto;
     }
-
-    
-
     #events .box-container {
     grid-template-columns: repeat(auto-fit,minmax(18rem,1fr));
     gap: 1.5rem;
@@ -1086,9 +960,7 @@ label.logo{
      #events .box-container .box  img{
             width: 250px;
      }
-
      #event h2 {
     font-size: 20px;
 }
-
 }
