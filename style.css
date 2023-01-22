@@ -709,6 +709,10 @@ label.logo{
     .heading h2 {
     font-size: 35px;
     }
+     #events span{
+       font-size:0.8em;
+
+    }
 
 }
 
@@ -757,7 +761,11 @@ label.logo{
     #events p {
         font-size: 0.84em;
     }
+    
+    #events span{
+      font-size:0.8em;
 
+    }
 
     .top{
     background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(105, 97, 104, 0.7)),url(images/smalllead.jpg) no-repeat;
@@ -870,6 +878,11 @@ label.logo{
         font-size: 0.8em;
     }
 
+    #events span{
+      font-size:0.9em;
+
+    }
+
     #text2 ul li {
         font-size: 0.6em;
     }
@@ -892,7 +905,7 @@ label.logo{
     .credit {
         font-size: 0.75em;
     }
-
+  
     #footer .box-container .box{
         font-size: 0.65em;
     }
@@ -962,5 +975,9 @@ label.logo{
      }
      #event h2 {
     font-size: 20px;
-}
+    }
+        #events span{
+      font-size:0.8em;
+
+    }
 }
