@@ -336,7 +336,7 @@ label.logo{
 }
 
 .introbox{
-    display: flex;
+    disp1lay: flex;
     justify-content: center;
     align-items: center;
     text-align: justify;
@@ -946,7 +946,7 @@ label.logo{
         font-size: 15px;
     }
     #footer .credit{
-        font-size: 15px;
+        font-size: 0.6em;
     }
 
     #anouncement li{
@@ -962,6 +962,7 @@ label.logo{
     width: 150px;
     margin: auto;
     }
+	
     #events .box-container {
     grid-template-columns: repeat(auto-fit,minmax(18rem,1fr));
     gap: 1.5rem;
@@ -969,6 +970,7 @@ label.logo{
     padding-right: 20px;
     padding-bottom: 20px;
     }
+	
     #events .box-container .box {
     position: relative;
     padding: 1px
