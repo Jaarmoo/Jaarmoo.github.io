@@ -152,14 +152,14 @@ label.logo{
 }
 
 
-#anounce{
+#blog{
     font-size: 1.2em;
     margin: 30px;
     padding: 0;
     text-align: justify;
 }
 
-.anouncebox{
+.blogbox{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -168,25 +168,18 @@ label.logo{
 #text2{
    padding:0 10px ;
     width: 100%;
+   font-size:0.9em;
 }
+
 #text2 p{
     display: inline;
 }
 
-#text2 ul{
-    display: block;
-    margin: 25px;
-    padding: 0 30px;
-
-}
-#text2 ul li{
-    list-style: disc;
-    text-align: justify; 
-    padding: 20px;
-    font-size: 1.0em;
+#text2 h4{
+	text-align:center;
 }
  
-#anounce img{
+#blog img{
     width:250px ;
     height:250px ;
     margin: 20px 100px;
@@ -641,11 +634,11 @@ label.logo{
         text-align: justify;
     }
 
-    #anounce{
+    #blog{
         height: auto;
     }
 
-    #anounce img {
+    #blog img {
         display: block;
         margin: auto;
         padding: 0;
@@ -655,15 +648,9 @@ label.logo{
         padding: 0;
         
     }
-        
-    #text2 ul {
-    margin: 25px;
-    padding: 0 25px;
-    }
 
-
-    #text2 ul li{
-    font-size: 0.9em;
+    #text2{
+    font-size: 0.7em;
     }
   
    
@@ -755,7 +742,7 @@ label.logo{
      font-size: 0.9em;
     }
 
-    #text2 ul li{
+    #text2{
         font-size: 0.8em;
     }
     #events p {
@@ -856,7 +843,7 @@ label.logo{
         width: 150px;
     }
 
-    #anounce img {
+    #blog img {
         height: 150px;
         width: 150px;
     }
@@ -887,7 +874,7 @@ label.logo{
        0.9em;
     }
 
-    #text2 ul li {
+    #text2{
         font-size: 0.6em;
     }
 
@@ -942,14 +929,14 @@ label.logo{
     #text{
         font-size: 15px;
     }
-    #anouncement h1{
+    #maintopic{
         font-size: 15px;
     }
     #footer .credit{
         font-size: 0.6em;
     }
 
-    #anouncement li{
+    #blog text2{
         font-size: 15px;
     }
 
